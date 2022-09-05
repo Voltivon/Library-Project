@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ed9802e448.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script> 
+    <title>Library Project</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                 <i class="fa-solid fa-book fa-4x"></i>
+                   <h1>Library</h1> 
+            </div>
+           
+            <div class="user-input-data-one">
+                <p>What is the title of the book?</p>
+                <input type="text" class="user-title-input">
+                <p>Who is the author of this book?</p>
+                <input class="user-author-input">
+                <p>How many pages are in this book?</p>
+              
+                <input class="user-pages-input">
+            </div>
+            <div class="checkbox-user-input">
+                <input class="user-book-status-input" type="checkbox"></input>
+                <p>Have you read this book?</p>
+            </div>
+            <div class="add-new-book">
+                <button type="button" class="add-new-book-button">ADD NEW BOOK</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <p class="books-read-counter">BOOKS READ: <h4 class="book-read-count"></h4></p>
+                <p class="books-unread-counter">BOOKS UNREAD: <h4 class="book-unread-count"></h4></p>
+                <p class="books-total-counter">TOTAL BOOKS: <h4 class="book-total-count"></h4></p>
+                <button class="delete-all">DELETE ALL</button>
+            </div>
+            <div class="header-two">
+                <h2>Book Shelf</h2>
+            </div>
+
+
+             <div class="book-grid-container">
+            
+                <div class="book book-one">
+                    <h2 class="book-title">title</h2>
+                    <h2>Author</h2>
+                    <h2>Pages</h2>
+                   
+                    <h2>I've read this book</h2>
+                    <button type="button" class="delete-book">Delete</button>
+
+
+
+                </div>
+                <!-- <div class="book book-two"></div> -->
+                <!-- <div class="book book-three"></div>
+                <div class="book book-four"></div>
+                <div class="book book-five"></div>
+                <div class="book book-five"></div> -->
+                
+        </div>
+        </div>
+       
+    </div>
+    
+  
+</body>
+</html>
