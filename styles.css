@@ -116,8 +116,18 @@ html {
   box-shadow: 14px 1px 2px 1px gray;
   box-sizing: border-box;
   border-radius: 5px;
+  
 }
 
 .book-title {
   font-size: 2rem;
+}
+
+
+.delete-book {
+  width: 80px;
+  border-radius: 10px;
+  background-color:#52525b;
+  border-color: black;
+  
 }
